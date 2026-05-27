@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>환자·보호자 가이드 — MediPeace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo"><span class="logo-mark">✦</span> MediPeace</a>
+      <div class="nav-links">
+        <a href="patient.html" style="color: var(--c-sage-dark); font-weight:500;">환자·보호자</a>
+        <a href="provider.html">의료진</a>
+        <a href="mediation.html">중재·조정</a>
+        <a href="checkin.html" class="btn-nav">감정 체크인</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">☰</button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="patient.html">환자·보호자</a>
+      <a href="provider.html">의료진</a>
+      <a href="mediation.html">중재·조정</a>
+      <a href="checkin.html">감정 체크인</a>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <div class="container">
+      <span class="page-header-badge badge-patient">🧑‍⚕️ 환자·보호자</span>
+      <h1>의료 분쟁, 혼자 감당하지 마세요</h1>
+      <p>무엇을 해야 할지 모를 때, 어디서 시작해야 할지 알려드립니다. 분노, 억울함, 두려움 — 모두 정상적인 반응입니다.</p>
+    </div>
+  </div>
+
+  <main class="section" style="background: var(--c-warm-white);">
+    <div class="container">
+
+      <!-- Emotional validation first -->
+      <div class="info-card" style="background: var(--c-patient-bg); border-color: var(--c-patient);">
+        <h3 style="color: var(--c-patient);">💙 먼저, 감정을 인정하세요</h3>
+        <p>의료 사고나 예상치 못한 결과 후 느끼는 분노, 슬픔, 배신감은 완전히 정상적인 반응입니다. 이런 감정을 무시하거나 억누르지 마세요.</p>
+        <p style="margin-top:0.75rem;">충분히 감정을 처리한 후 다음 단계를 생각하는 것이 더 좋은 결과로 이어집니다.</p>
+        <a href="checkin.html" class="btn btn-outline" style="margin-top:1rem; font-size:0.875rem;">감정 체크인 하기 →</a>
+      </div>
+
+      <!-- Step by step guide -->
+      <h2 style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 2rem; margin-top: 3rem;">분쟁 발생 시 단계별 행동 가이드</h2>
+
+      <ul class="steps" style="margin-bottom: 3rem;">
+        <li class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h4>안전 확보 및 상황 파악</h4>
+            <p>먼저 환자의 현재 상태가 안정적인지 확인하세요. 즉각적인 의료 위험이 있다면 추가 치료를 요청하는 것이 최우선입니다.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h4>기록 시작 — 모든 것을 메모하세요</h4>
+            <p>날짜, 시간, 누가 무슨 말을 했는지, 어떤 처치가 이루어졌는지 기록합니다. 감정도 함께 기록하면 나중에 도움이 됩니다.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h4>의무기록 사본 요청</h4>
+            <p>법적으로 의무기록 열람·복사를 요청할 권리가 있습니다. 의료기관의 원무과에 요청하면 됩니다. 거부될 경우 보건복지부에 신고할 수 있습니다.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <h4>담당 의료진과 대화 시도</h4>
+            <p>감정이 어느 정도 정리된 후, 담당 의사 또는 간호사에게 충분한 설명을 요청해보세요. 많은 분쟁이 이 단계에서 해결됩니다.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num">5</div>
+          <div class="step-content">
+            <h4>의료기관 환자권리 담당자 면담</h4>
+            <p>대부분의 병원에는 환자 불만 처리 담당자(환자경험팀, 고객만족팀 등)가 있습니다. 공식적인 내부 절차를 활용하세요.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num">6</div>
+          <div class="step-content">
+            <h4>외부 중재 기관 활용</h4>
+            <p>내부 해결이 안 될 경우, 한국의료분쟁조정중재원(KMDIVS)에 조정 신청을 할 수 있습니다. 무료이며 법적 분쟁보다 훨씬 빠릅니다.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num">7</div>
+          <div class="step-content">
+            <h4>법적 조치 (최후 수단)</h4>
+            <p>다른 모든 방법이 실패했을 때 고려하세요. 민사 소송은 시간과 비용이 많이 들고, 추가적인 트라우마를 유발할 수 있습니다.</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Your rights -->
+      <h2 style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 1.5rem;">환자의 권리</h2>
+
+      <div class="accordion" style="margin-bottom: 3rem;">
+        <div class="accordion-item">
+          <button class="accordion-trigger">알 권리 (Right to Information) <em class="icon">▾</em></button>
+          <div class="accordion-body">
+            <p>의료기관은 환자에게 진단명, 치료 방법, 예상 결과, 부작용 등에 대해 충분히 설명할 의무가 있습니다.</p>
+            <ul>
+              <li>진료 전 충분한 설명 요청 권리</li>
+              <li>이해할 수 있는 언어로 설명받을 권리</li>
+              <li>의무기록 열람 및 복사 요청 권리</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger">동의 권리 (Informed Consent) <em class="icon">▾</em></button>
+          <div class="accordion-body">
+            <p>충분한 정보를 제공받은 후 치료에 동의하거나 거부할 권리가 있습니다.</p>
+            <ul>
+              <li>모든 의료 행위는 사전 동의 필요</li>
+              <li>동의 철회 권리</li>
+              <li>응급 상황 제외 시 강제 치료 금지</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger">비밀 보장 권리 (Privacy & Confidentiality) <em class="icon">▾</em></button>
+          <div class="accordion-body">
+            <p>환자의 의료 정보는 법적으로 보호받습니다.</p>
+            <ul>
+              <li>개인정보 제3자 제공 시 동의 필요</li>
+              <li>의료 기록 무단 공개 금지</li>
+              <li>CCTV 등 영상 기록 관련 권리</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger">불만 제기 및 구제 권리 <em class="icon">▾</em></button>
+          <div class="accordion-body">
+            <p>의료 서비스에 불만이 있을 때 이의를 제기할 권리가 있습니다.</p>
+            <ul>
+              <li>의료기관 내 환자 불만 처리 절차 이용 권리</li>
+              <li>보건복지부, 건강보험심사평가원에 신고 권리</li>
+              <li>한국의료분쟁조정중재원 조정 신청 권리</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- What NOT to do -->
+      <h2 style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 1.5rem;">이것만은 피하세요</h2>
+
+      <div class="info-card">
+        <ul>
+          <li>🚫 <strong>분노 상태에서 즉각적인 법적 행동을 취하지 마세요.</strong> 감정이 가라앉은 후 결정해도 늦지 않습니다.</li>
+          <li style="margin-top:0.75rem;">🚫 <strong>SNS에 의료진을 특정해 공개하지 마세요.</strong> 명예훼손 역소송의 위험이 있습니다.</li>
+          <li style="margin-top:0.75rem;">🚫 <strong>의무기록을 무단으로 촬영하거나 훼손하지 마세요.</strong> 법적으로 불리해질 수 있습니다.</li>
+          <li style="margin-top:0.75rem;">🚫 <strong>인터넷 카페나 커뮤니티 의견에만 의존하지 마세요.</strong> 전문가의 조언을 구하세요.</li>
+        </ul>
+      </div>
+
+      <!-- External resources -->
+      <h2 style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 1.5rem; margin-top: 3rem;">도움받을 수 있는 곳</h2>
+
+      <div class="card-grid">
+        <a href="https://www.kmdivs.or.kr" target="_blank" rel="noopener" class="who-card who-patient">
+          <h3>한국의료분쟁조정중재원</h3>
+          <p>무료 조정·중재 서비스. 1670-2545</p>
+          <span class="who-link">바로가기 →</span>
+        </a>
+        <a href="https://www.hira.or.kr" target="_blank" rel="noopener" class="who-card who-patient">
+          <h3>건강보험심사평가원</h3>
+          <p>진료비 이의신청, 의료 질 관련 민원</p>
+          <span class="who-link">바로가기 →</span>
+        </a>
+        <a href="https://www.mohw.go.kr" target="_blank" rel="noopener" class="who-card who-patient">
+          <h3>보건복지부 민원</h3>
+          <p>의료기관 위반 사항 신고·민원 접수</p>
+          <span class="who-link">바로가기 →</span>
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-bottom" style="max-width:100%; justify-content:center; text-align:center;">
+      <p>MediPeace는 법률 조언을 제공하지 않습니다. © 2024 MediPeace. MIT License.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

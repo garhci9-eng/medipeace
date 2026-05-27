@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>중재·조정 가이드 — MediPeace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo"><span class="logo-mark">✦</span> MediPeace</a>
+      <div class="nav-links">
+        <a href="patient.html">환자·보호자</a>
+        <a href="provider.html">의료진</a>
+        <a href="mediation.html" style="color: var(--c-sage-dark); font-weight:500;">중재·조정</a>
+        <a href="checkin.html" class="btn-nav">감정 체크인</a>
+      </div>
+      <button class="nav-toggle" id="navToggle">☰</button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="patient.html">환자·보호자</a>
+      <a href="provider.html">의료진</a>
+      <a href="mediation.html">중재·조정</a>
+      <a href="checkin.html">감정 체크인</a>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <div class="container">
+      <span class="page-header-badge badge-mediation">⚖️ 중재·조정</span>
+      <h1>소송 전에 중재를 먼저 고려하세요</h1>
+      <p>의료 분쟁의 해결 방법은 소송만이 아닙니다. 더 빠르고, 더 저렴하고, 덜 상처나는 방법이 있습니다.</p>
+    </div>
+  </div>
+
+  <main class="section" style="background: var(--c-warm-white);">
+    <div class="container">
+
+      <!-- Comparison table intro -->
+      <h2 style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 1.5rem;">해결 방법 비교</h2>
+
+      <div class="card-grid" style="margin-bottom: 3rem;">
+        <div class="info-card" style="border-top: 3px solid var(--c-sage);">
+          <h3>🤝 중재·조정 (권장)</h3>
+          <ul>
+            <li>✅ 평균 처리 기간: 90일 이내</li>
+            <li>✅ 비용: 무료 (조정중재원)</li>
+            <li>✅ 비공개 절차</li>
+            <li>✅ 합의 시 법적 효력</li>
+            <li>✅ 양측 관계 보존 가능</li>
+            <li>✅ 감정적 트라우마 최소화</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3>⚖️ 민사 소송</h3>
+          <ul>
+            <li>⚠️ 평균 처리 기간: 2~5년</li>
+            <li>⚠️ 비용: 수백만~수천만 원</li>
+            <li>⚠️ 공개 재판</li>
+            <li>⚠️ 결과 불확실</li>
+            <li>❌ 양측 관계 완전 파탄</li>
+            <li>❌ 추가적인 심리적 트라우마</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3>🚨 형사 고소</h3>
+          <ul>
+            <li>⚠️ 성공 가능성 매우 낮음</li>
+            <li>⚠️ 의사에 대한 처벌이 목적</li>
+            <li>⚠️ 금전 배상 연결 어려움</li>
+            <li>⚠️ 장기간 소요</li>
+            <li>❌ 양측 모두에게 큰 상처</li>
+            <li>❌ 의료 현장 위축 부작용</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- KMDIVS process -->
+      <h2 style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 1.5rem;">한국의료분쟁조정중재원 절차</h2>
+
+      <div class="alert alert-success" style="margin-bottom:1.5rem;">
+        ✅ 신청은 무료이며, 환자와 의료기관 모두 신청할 수 있습니다. 상대방이 동의해야 조정이 시작됩니다.
+      </div>
+
+      <ul class="steps" style="margin-bottom: 3rem;">
+        <li class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h4>조정 신청</h4>
+            <p>온라인 또는 방문 신청. 사고 경위, 피해 내용, 원하는 결과를 작성합니다. 의무기록 사본 첨부 필요.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h4>상대방 동의 요청</h4>
+            <p>조정중재원이 의료기관 또는 환자에게 조정 참여 의사를 묻습니다. 동의하면 조정 개시, 거부하면 종료됩니다.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <h4>감정 및 검토</h4>
+            <p>전문 감정인(의사, 법률가)이 의무기록과 사고 경위를 검토하고 의학적 과실 여부를 판단합니다.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <h4>조정 회의</h4>
+            <p>조정위원회가 양 당사자의 주장을 듣고 합의를 이끌어냅니다. 비공개로 진행됩니다.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step-num">5</div>
+          <div class="step-content">
+            <h4>조정 합의 또는 중재</h4>
+            <p>합의 시 법적 효력 발생. 합의가 안 될 경우 중재 결정이 내려질 수 있습니다.</p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Tips for negotiation -->
+      <h2 style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 1.5rem;">성공적인 조정을 위한 팁</h2>
+
+      <div class="accordion" style="margin-bottom: 3rem;">
+        <div class="accordion-item">
+          <button class="accordion-trigger">환자 측 준비사항 <em class="icon">▾</em></button>
+          <div class="accordion-body">
+            <ul>
+              <li>원하는 결과를 구체적으로 정리하세요 (사과, 설명, 손해배상 등)</li>
+              <li>감정적 호소보다 사실 관계를 명확히 정리하세요</li>
+              <li>의무기록, 진단서, 비용 영수증 등 증거를 준비하세요</li>
+              <li>너무 높거나 비현실적인 금액 요구는 협상을 어렵게 합니다</li>
+              <li>전문 상담사나 환자 권리 단체의 도움을 받으세요</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger">의료기관 측 준비사항 <em class="icon">▾</em></button>
+          <div class="accordion-body">
+            <ul>
+              <li>방어적 태도보다 성실한 참여가 결과적으로 더 유리합니다</li>
+              <li>진심 어린 유감 표현이 합의를 더 쉽게 만들 수 있습니다</li>
+              <li>임상 전문가와 법률 전문가를 모두 참여시키세요</li>
+              <li>내부 사고 검토를 먼저 충분히 하세요</li>
+              <li>조정 중 발언은 법원에서 사용될 수 있음을 인지하세요</li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger">조정이 실패할 때 <em class="icon">▾</em></button>
+          <div class="accordion-body">
+            <p>조정이 성립하지 않아도 실망하지 마세요. 여전히 선택지가 있습니다.</p>
+            <ul>
+              <li>당사자 간 자체 협상을 다시 시도할 수 있습니다</li>
+              <li>중재 결정을 요청할 수 있습니다 (양측 합의 필요)</li>
+              <li>민사 소송을 진행할 수 있습니다</li>
+              <li>조정 과정에서 수집된 정보가 소송에도 도움이 됩니다</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact resources -->
+      <h2 style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 1.5rem;">관련 기관 연락처</h2>
+      <div class="info-card">
+        <table style="width:100%; border-collapse: collapse; font-size: 0.9rem;">
+          <thead>
+            <tr style="border-bottom: 1px solid var(--c-border);">
+              <th style="text-align:left; padding: 0.75rem 0; color: var(--c-text-muted); font-weight: 500;">기관</th>
+              <th style="text-align:left; padding: 0.75rem 0; color: var(--c-text-muted); font-weight: 500;">전화</th>
+              <th style="text-align:left; padding: 0.75rem 0; color: var(--c-text-muted); font-weight: 500;">대상</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--c-border);">
+              <td style="padding: 0.75rem 0;"><strong>한국의료분쟁조정중재원</strong></td>
+              <td style="padding: 0.75rem 0;">1670-2545</td>
+              <td style="padding: 0.75rem 0;">환자, 의료기관 모두</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--c-border);">
+              <td style="padding: 0.75rem 0;">보건복지부 콜센터</td>
+              <td style="padding: 0.75rem 0;">129</td>
+              <td style="padding: 0.75rem 0;">일반 민원</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--c-border);">
+              <td style="padding: 0.75rem 0;">건강보험심사평가원</td>
+              <td style="padding: 0.75rem 0;">1644-2000</td>
+              <td style="padding: 0.75rem 0;">진료비 이의신청</td>
+            </tr>
+            <tr>
+              <td style="padding: 0.75rem 0;">대한법률구조공단</td>
+              <td style="padding: 0.75rem 0;">132</td>
+              <td style="padding: 0.75rem 0;">법률 상담 (무료)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-bottom" style="max-width:100%; justify-content:center; text-align:center;">
+      <p>MediPeace는 법률 조언을 제공하지 않습니다. © 2024 MediPeace. MIT License.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
